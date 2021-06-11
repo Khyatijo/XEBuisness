@@ -9,7 +9,7 @@ Selenium Documentation References:-
 
 •	Acceptance test for http://www.xe.com/currencyconverter/
 •	The Acceptance criteria is to test multiple conversion rates
-•	The test  iterate over 5 sets of sample data.
+•	The test  iterate over 2 sets of sample data.
 •	Example iteration : 
 o	The test should input from Euro to INR.
 o	Verify the result on the proceeding page.
