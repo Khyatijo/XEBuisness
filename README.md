@@ -26,10 +26,7 @@ o	Verify the result on the proceeding page.
 3. Creating tests
 4. Creating Logging Handler
 5. Running tests 
-6. Extent Report
-7. Project structure
-8. Maven plugins
-9. Gitlab CI
+6. Project structure
 
 ## 1. Development requirements
 
