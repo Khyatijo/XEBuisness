@@ -52,6 +52,10 @@ $ mvn clean install
 
 ## 5. Project structure
 
-  
+![image](https://user-images.githubusercontent.com/33062944/121694337-e153fd00-ca7e-11eb-9987-6e140ed82c97.png)
+![image](https://user-images.githubusercontent.com/33062944/121694396-f0d34600-ca7e-11eb-87b1-14f5c9145ee3.png)
+
+
+
 
 
