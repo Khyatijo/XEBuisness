@@ -38,8 +38,9 @@ public class MainPage extends Base  {
 	    public void CloseFirstPopups()
 	    {
 	    	List<WebElement> elems=driver.findElements(FirstPopUps);
-			elems.get(1).click();
-			elems.get(0).click();
+			elems.get(elems.size()-1).click();
+			if(elems.size()>1)
+			elems.get(elems.size()-2).click();
 			
 	    }
 	    public void MaximizeWindow()

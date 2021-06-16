@@ -27,17 +27,18 @@ import java.util.List;
 import org.expleo.XE.BaseResources.*;
 
 
+
 @RunWith(Cucumber.class)
 public class StepDefinitions extends Base {
+	MainPage mainPage;
+	WebDriver driver;
+	Convertor ConvertorComponent;
 
 	public StepDefinitions() throws IOException {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 
-	MainPage mainPage;
-	WebDriver driver;
-	Convertor ConvertorComponent;
 	
 	@Given("^user opens the Web Browser$")
 	public void user_opens_the_Web_Browser() throws Throwable {
@@ -111,7 +112,7 @@ public class StepDefinitions extends Base {
          String s1 = elems.get(1).getText();
          String main = s+s1;
          System.out.println(s1);
-         Assert.assertTrue(s.contains("1,000.00 Euro"));
+         Assert.assertTrue(s.contains("Euro"));
          Assert.assertTrue(s1.contains("Indian Rupees"));
          System.out.println(s);
 	}
