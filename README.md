@@ -44,17 +44,24 @@ $ mvn clean install
 
 The test cases are written in gherkin language in feature file present under src\test\java\org\expleo\XE\Features. The implementation of feature file is written in java located at   src\test\java\Oog\expleo\XE\stepDefinations.
 
-## 3. Running tests
+## 4. Running tests
 
-```
 $ mvn clean install 
  
 
 ## 5. Project structure
-
-![image](https://user-images.githubusercontent.com/33062944/121694337-e153fd00-ca7e-11eb-9987-6e140ed82c97.png)
-![image](https://user-images.githubusercontent.com/33062944/121694396-f0d34600-ca7e-11eb-87b1-14f5c9145ee3.png)
-
+src/main/java/org/expleo/XE -: contains four packages.
+ BaseResources -: contain a java class named Base.java which is a Base class and  data.properties file
+ CommonClasses -: contains an Abstract java class named AbstractComponent.
+ MainPage -: contains two java classes MainPage and MainPanelNavigation whch are PageObjects(
+ Tools -: contains four java classes.Alerts and Chart classes ( PageComponent code for Alerts and chart will be added) Third is Convertor class which Page Component class for Convertor component and Fourth class is Navigate(PageObject(Navigation class for Tools PageComponent class.))
+ 
+ src/test/java/org/expleo/XE -: contains two packages.
+    Features -: Contains a feature file Conversion.feature which contains the scenario for conversion of feature.
+    TestRunner -: Contains the TestRunner java class.
+    
+ src/test/java/Oog/expleo/XE-: contains one package
+     Step Defination -: Contains StepDefination class containing code for Conversion feature file.
 
 
 
