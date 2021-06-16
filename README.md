@@ -51,16 +51,19 @@ $ mvn clean install
 
 ## 5. Project structure
 src/main/java/org/expleo/XE -: contains four packages.
+ 
  BaseResources -: contain a java class named Base.java which is a Base class and  data.properties file
  CommonClasses -: contains an Abstract java class named AbstractComponent.
  MainPage -: contains two java classes MainPage and MainPanelNavigation whch are PageObjects(
  Tools -: contains four java classes.Alerts and Chart classes ( PageComponent code for Alerts and chart will be added) Third is Convertor class which Page Component class for Convertor component and Fourth class is Navigate(PageObject(Navigation class for Tools PageComponent class.))
  
  src/test/java/org/expleo/XE -: contains two packages.
+    
     Features -: Contains a feature file Conversion.feature which contains the scenario for conversion of feature.
     TestRunner -: Contains the TestRunner java class.
     
  src/test/java/Oog/expleo/XE-: contains one package
+     
      Step Defination -: Contains StepDefination class containing code for Conversion feature file.
 
 
